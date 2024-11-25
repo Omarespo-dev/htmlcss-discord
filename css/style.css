@@ -261,6 +261,7 @@ header{
     background-image: url(../img/item3.svg);
     background-repeat: no-repeat; 
     
+    
 }
 
 .pink-four{
@@ -298,19 +299,85 @@ header{
 .container-cinque{
     display: flex;
     flex-direction: row;
-    height: 700px;
-    background-color: darkgray;
+    /* height: 700px; */
+    background-color: whitesmoke;
     justify-content: center;
-    
+
 }
 
 .green{
-    background-color: green;
+    /* background-color: green; */
     flex-basis: 70%;
     margin-top: 30px;
-    margin-bottom: 30px;
-    border: 3px dotted black;
+    margin-bottom: 100px;
+    /* border: 3px dotted black; */
+   
     
+}
+
+.img-big-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.img-big{
+    /* margin-bottom: 30%; */
+    margin-top: 5%;
+}
+
+
+.h1-p1-container5{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+}
+
+
+#h1-container5{
+    font-size: 40px;
+}
+
+#p1-container5{
+    /* width: 60%; */
+    font-size: 20px;
+    padding: 0 20%;
+}
+
+.container-star-scarica{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.h2{
+    position: absolute;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.container-buttom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.scarica-mac2{
+    display: flex;
+    
+}
+#scarica-mac2{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9999px;
+    border-style: none;
+    border-color: white;
+    cursor: pointer;
+    background-color: #8ca4e2;
+    color: whitesmoke;
 }
 
 /* INIZIO PARTE Footer */
