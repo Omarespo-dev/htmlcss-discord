@@ -441,6 +441,29 @@ header{
     height: 20px;
 }
 
+.fa-twitter{
+    margin-top: 20px;
+    height: 0;
+    width: 0;
+}
+.fa-instagram{
+    height: 0;
+    width: 0;
+    margin-left: 40px;
+}
+
+.fa-facebook{
+    height: 0;
+    width: 0;
+    margin-left: 80px;
+}
+.fa-youtube{
+    height: 0;
+    width: 0;
+    margin-left: 120px;
+}
+
+
 
 .seagreen{
     /* background-color: lightseagreen; */
@@ -482,8 +505,7 @@ header{
 .container-logo-bottone{
     display: flex;
     flex-direction: row;
-    background-color: black;
-    height: 275px;
+    background-color: rgba(35,39,42,255);
     justify-content: center;
     
     /* justify-content: center; */
@@ -491,10 +513,10 @@ header{
     
 }
 .item-logo-bottone{
-    background-color:aqua;
+    /* background-color:aqua; */
     flex-basis: 70%;
     width: 70%;
-    margin-top: 10%;
+    margin-top: 3%;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -505,24 +527,35 @@ header{
 
 .logo-due{
     padding: 2px;
-    background-color: salmon;
+    width: 0;
     margin-top: 25px;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     height: 30px;
 
 }
 
 .bottone-due{
     /* padding: 2px; */
-    background-color: salmon;
+    /* background-color: salmon; */
     margin-top: 25px;
-    border: 2px dotted black;
+    /* border: 2px dotted black; */
     width: 10%;
     height: 30px;
     text-align: end;
-    margin-left: 20px;
+    
 }
 
+#registrati{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9999px;
+    border-style: none;
+    border-color:white;
+    cursor: pointer;
+    background-color: #8ca4e2;
+    color: whitesmoke;
+    
+}
 
 
 
